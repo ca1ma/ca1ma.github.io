@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 
 
 
@@ -18,7 +18,7 @@
   <meta name="description" content="">
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
-  <title>标签 ~ Ca1ma&#39;s blog</title>
+  <title>Tags ~ Ca1ma&#39;s blog</title>
 
   <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.10.2/css/all.min.css"  >
 <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css"  >
@@ -62,7 +62,19 @@
           
           
           <li class="nav-item">
-            <a class="nav-link" href="/">首页</a>
+            <a class="nav-link" href="/">Home</a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/tags/">Tags</a>
           </li>
         
           
@@ -70,31 +82,7 @@
           
           
           <li class="nav-item">
-            <a class="nav-link" href="/archives/">归档</a>
-          </li>
-        
-          
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="/categories/">分类</a>
-          </li>
-        
-          
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="/tags/">标签</a>
-          </li>
-        
-          
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="/about/">关于</a>
+            <a class="nav-link" href="/about/">About</a>
           </li>
         
         
@@ -109,7 +97,7 @@
 </nav>
 
     <div class="view intro-2" id="background"
-         style="background: url('/img/tag.jpg')no-repeat center center;
+         style="background: url('/img/tag1.jpg')no-repeat center center;
            background-size: cover;
            background-attachment: fixed;">
       <div class="full-bg-img">
@@ -139,7 +127,7 @@
                 
 
 <div class="text-center tagcloud">
-  
+  <a href="/tags/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/" style="font-size: 15px; color: #bbe">信息收集</a> <a href="/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/" style="font-size: 15px; color: #bbe">渗透测试</a>
 </div>
               </div>
             </div>
@@ -161,7 +149,7 @@
   <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
         <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -170,7 +158,7 @@
         <div class="md-form mb-5">
           <input type="text" id="local-search-input" class="form-control validate">
           <label data-error="x" data-success="v"
-                 for="local-search-input">关键词</label>
+                 for="local-search-input">keyword</label>
         </div>
         <div class="list-group" id="local-search-result"></div>
       </div>
@@ -282,7 +270,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "标签&nbsp;",
+        "Tag&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
@@ -300,8 +288,10 @@
   <script src="https://cdn.staticfile.org/anchor-js/4.2.0/anchor.min.js" ></script>
   <script>
     anchors.options = {
-      placement: "right",
-      visible: "false",
+      placement: "left",
+      visible: "true",
+      
+      icon: "#"
       
     };
     var el = "h1,h2,h3,h4,h5,h6".split(",");

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 
 
 
@@ -62,7 +62,19 @@
           
           
           <li class="nav-item">
-            <a class="nav-link" href="/">首页</a>
+            <a class="nav-link" href="/">Home</a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/tags/">Tags</a>
           </li>
         
           
@@ -70,31 +82,7 @@
           
           
           <li class="nav-item">
-            <a class="nav-link" href="/archives/">归档</a>
-          </li>
-        
-          
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="/categories/">分类</a>
-          </li>
-        
-          
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="/tags/">标签</a>
-          </li>
-        
-          
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="/about/">关于</a>
+            <a class="nav-link" href="/about/">About</a>
           </li>
         
         
@@ -109,7 +97,7 @@
 </nav>
 
     <div class="view intro-2" id="background"
-         style="background: url('/img/shan.JPG')no-repeat center center;
+         style="background: url('/img/home.jpg')no-repeat center center;
            background-size: cover;
            background-attachment: fixed;">
       <div class="full-bg-img">
@@ -146,36 +134,81 @@
   <div class="row mb-4 mx-auto">
     
     
+      <div class="col-12 col-md-4 m-auto">
+        <a href="/2020/02/18/Google%E7%9A%84%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95%E5%8F%8A%E5%85%B6%E8%AF%B4%E6%98%8E/" target="_self">
+          <img src="/img/programming/google.jpg" srcset="/img/loading.gif" alt="Google的常用语法及其说明" class="img-fluid rounded z-depth-3 index-thumbnails">
+        </a>
+      </div>
+    
     <div class="col-12 col-md-8 m-auto">
-      <a href="/2020/01/06/hello-world/">
-        <p class="h4 index-header">Hello World</p>
+      <a href="/2020/02/18/Google%E7%9A%84%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95%E5%8F%8A%E5%85%B6%E8%AF%B4%E6%98%8E/">
+        <p class="h4 index-header">Google的常用语法及其说明</p>
         
         
           
         
         <div class="index-excerpt" >
-          <div class="index-text mb-1">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post$ hexo new &quot;My New Post&quot;
+          <div class="index-text mb-1">Google 常用语法
 
-More info: Writing
-Run server$ hexo server
 
-More info: Server
-Generate static files$ hexo generate
 
-More info: Generating
-Deploy to remote sites$ hexo deploy
+关键字
+说明
 
-More info: Deployment
+
+
+
+Site
+指定域名
+
+
+Inurl
+URL中存在关键字的网页
+
+
+Intext
+网页正文中的关键字
+
+
+Filetype
+指定文件类型
+
+
+Intitle
+网页标题中的关键字
+
+
+link
+link:baidu.com 即表示返回所有和baidu.com做了链接的URL
+
+
+Info
+查找指定站点的一些基本信息
+
+
+cache
+搜索Google里关于某些内容的缓存
+
+
+
+
+有了在更新。。。
 </div>
         </div>
       </a>
 
       <div>
         
-          <i class="iconfont icon-riqi2"></i>&nbsp;2020-01-06&nbsp;&nbsp;
+          <i class="iconfont icon-riqi2"></i>&nbsp;2020-02-18&nbsp;&nbsp;
         
         
+        
+          <i class="iconfont icon-tag"></i>
+          
+            <a href="/tags/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86">信息收集</a>&nbsp;
+          
+            <a href="/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95">渗透测试</a>&nbsp;
+          
         
       </div>
     </div>
@@ -205,7 +238,7 @@ More info: Deployment
   <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
         <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -214,7 +247,7 @@ More info: Deployment
         <div class="md-form mb-5">
           <input type="text" id="local-search-input" class="form-control validate">
           <label data-error="x" data-success="v"
-                 for="local-search-input">关键词</label>
+                 for="local-search-input">keyword</label>
         </div>
         <div class="list-group" id="local-search-result"></div>
       </div>
@@ -344,8 +377,10 @@ More info: Deployment
   <script src="https://cdn.staticfile.org/anchor-js/4.2.0/anchor.min.js" ></script>
   <script>
     anchors.options = {
-      placement: "right",
-      visible: "false",
+      placement: "left",
+      visible: "true",
+      
+      icon: "#"
       
     };
     var el = "h1,h2,h3,h4,h5,h6".split(",");

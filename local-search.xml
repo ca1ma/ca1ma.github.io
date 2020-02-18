@@ -4,13 +4,21 @@
   
   
   <entry>
-    <title>Hello World</title>
-    <link href="/2020/01/06/hello-world/"/>
-    <url>/2020/01/06/hello-world/</url>
+    <title>Google的常用语法及其说明</title>
+    <link href="/2020/02/18/Google%E7%9A%84%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95%E5%8F%8A%E5%85%B6%E8%AF%B4%E6%98%8E/"/>
+    <url>/2020/02/18/Google%E7%9A%84%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95%E5%8F%8A%E5%85%B6%E8%AF%B4%E6%98%8E/</url>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="lang-bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="lang-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="lang-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="lang-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Google-常用语法"><a href="#Google-常用语法" class="headerlink" title="Google 常用语法"></a>Google 常用语法</h1><div class="table-container"><table><thead><tr><th style="text-align:center">关键字</th><th style="text-align:center">说明</th></tr></thead><tbody><tr><td style="text-align:center">Site</td><td style="text-align:center">指定域名</td></tr><tr><td style="text-align:center">Inurl</td><td style="text-align:center">URL中存在关键字的网页</td></tr><tr><td style="text-align:center">Intext</td><td style="text-align:center">网页正文中的关键字</td></tr><tr><td style="text-align:center">Filetype</td><td style="text-align:center">指定文件类型</td></tr><tr><td style="text-align:center">Intitle</td><td style="text-align:center">网页标题中的关键字</td></tr><tr><td style="text-align:center">link</td><td style="text-align:center">link:baidu.com 即表示返回所有和baidu.com做了链接的URL</td></tr><tr><td style="text-align:center">Info</td><td style="text-align:center">查找指定站点的一些基本信息</td></tr><tr><td style="text-align:center">cache</td><td style="text-align:center">搜索Google里关于某些内容的缓存</td></tr></tbody></table></div><p>有了在更新。。。</p>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>信息收集</tag>
+      
+      <tag>渗透测试</tag>
+      
+    </tags>
     
   </entry>
   
